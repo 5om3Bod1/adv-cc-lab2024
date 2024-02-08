@@ -1,0 +1,60 @@
+.imageLeft {
+    transition:1s;
+}
+
+.imageLeft img{
+    float:left;
+    padding-left: 50px;
+    padding-top: 25px;
+    width: 300px;
+    height: 300px;
+}
+
+.imageLeft:hover{
+    transform:scale(1.1);
+    z-index:2;
+}
+
+.imageRight{
+    transition:1s;
+}
+
+.imageRight img{
+    float:right;
+    padding-right: 50px;
+    padding-top: 25px;
+    width: 300px;
+    height: 300px;
+}
+
+.imageRight:hover{
+    transform:scale(1.1);
+    z-index:2;
+}
+
+.inside{
+    padding-top: 700px;
+}
+
+.outMobs{
+    float: left;
+}
+.inMobs{
+    float: right;
+}
+
+body{
+    font-family: 'Poor Story', system-ui;
+}
+
+p{
+    font-size: 24;
+}
+
+.dis {
+    float:right;
+    padding-right: 50px;
+    width: 500px;
+    height: 500px;
+}
+
